@@ -1,0 +1,2 @@
+# linux-sytemprogramming
+『ふつうのLinuxプログラミング』の写経コードとか、その他Linuxシステムプログラミング勉強用のソースコード

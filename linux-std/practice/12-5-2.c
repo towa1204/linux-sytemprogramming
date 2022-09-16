@@ -40,6 +40,12 @@ int main(int argc, char *argv[])
         fflush(stdout);
 
         cmd = read_cmd();
+
+        /* デバッグ用 */
+        // int i;
+        // for (i = 0; i < cmd->argc; i++)
+        //     printf("cmd: argv[%d] = %s\n", i, cmd->argv[i]);
+
         if (cmd->argc > 0)
             invoke_cmd(cmd);
         
